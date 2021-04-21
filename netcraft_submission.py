@@ -176,7 +176,7 @@ def submit_URLs_Netcraft(unique_url_list):
 
     request_data = {
         "email": "smishing@cyber.gc.ca",
-        "reason": "HMG",
+        "reason": "GC",
         "urls": [{"url": u} for u in unique_url_list],
         }
 
